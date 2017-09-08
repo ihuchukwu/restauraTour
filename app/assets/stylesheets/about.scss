@@ -2,7 +2,8 @@
   background-image: url("http://www.newhdwallpaper.in/wp-content/uploads/2014/09/Fruits-most-beautiful-wallpaper.jpg");
 }
 .par1{
-  padding:20px;
+  font-size: 20px;
+  padding: 20px;
   // color: blue;
 }
 .h1{
@@ -14,8 +15,13 @@
   font-style:italic;
 }
 .classlist{
-  float: right;
+  border-radius:50%;
+  background-color:	#F8F8FF;
+  float:right;
   padding:100px;
+}
+.image1{
+  border-radius: 50%;
 }
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
