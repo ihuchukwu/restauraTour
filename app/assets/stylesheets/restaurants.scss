@@ -5,8 +5,9 @@
 .restaurant{
   background-image: url(/assets/tomato.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-}
+  }
 
 .eachRest{
   margin: 30px;
