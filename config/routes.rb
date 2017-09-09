@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: 'home#index'
+  root "static_pages#home"
 
 resources :users
 resources :restaurants
