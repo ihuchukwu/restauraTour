@@ -2,13 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body{
+.restaurant{
   background-image: url(/assets/tomato.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  }
+
+.eachRest{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  width: 33%;
 }
 
-.restcontainer{
-  background-color: blue;
-  width: 33%;
+div.eachRest p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
 }
