@@ -3,9 +3,10 @@ Rails.application.routes.draw do
   root to: 'home#index'
 
 resources :users
-resources :restaurants
+resources :restaurants do
+  resources :events
+end
 resources :menu_items
-resources :events
 resources :about
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
