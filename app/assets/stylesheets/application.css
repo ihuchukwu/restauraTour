@@ -15,7 +15,7 @@
  */
 
 html{
-  background-color: rgb(204, 204, 255)
+  background-color: rgb(255, 194, 102);
   /*background-size: cover;
   background-attachment: fixed;*/
 }
@@ -75,4 +75,7 @@ li {
 .navbar a.active {
    background-color: #4CAF50;
    color: white;
+}
+.logRight {
+  float: right;
 }
