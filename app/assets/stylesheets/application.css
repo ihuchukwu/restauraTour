@@ -14,51 +14,51 @@
  *= require_self
  */
 
-html{
-  background-color: rgb(255, 194, 102);
+/*html{
+  background-color: rgb(255, 194, 102);*/
   /*background-size: cover;
   background-attachment: fixed;*/
-}
+/*}*/
 
-.alert {
+/*.alert {
  text-align: center;
  font-weight: bold;
  margin: 0 auto;
  padding-top: 20px;
  color: #C22A42;
  font-style: italic;
-}
+}*/
 
-body {
-  margin: 0;
+/*body {
+  margin: 0;*/
   /*opacity: 0.5;*/
-  top: 0;
+  /*top: 0;
   left: 0;
   bottom: 0;
-  right: 0;
+  right: 0;*/
   /*z-index: -1;
   width: 583;*/
-  font-family: Helvetica, sans-serif;
-}
+  /*font-family: Helvetica, sans-serif;
+}*/
 
-ul {
+/*ul {
    list-style-type: none;
    margin: 0;
-}
+}*/
 
-li {
+/*li {
    float: left;
    padding: 10px;
    color: #FAFAFA
-}
+}*/
 
 
-.navbar {
+/*.navbar {
  overflow: hidden;
  background-color: #333;
-}
+}*/
 
-.navbar a {
+/*.navbar a {
  float: left;
  display: block;
  color: #f2f2f2;
@@ -66,16 +66,16 @@ li {
  padding: 14px 16px;
  text-decoration: none;
  font-size: 17px;
-}
+}*/
 
-.navbar a:hover {
+/*.navbar a:hover {
  color: #C22A42;
-}
+}*/
 
-.navbar a.active {
+/*.navbar a.active {
    background-color: #4CAF50;
    color: white;
 }
 .logRight {
   float: right;
-}
+}*/
