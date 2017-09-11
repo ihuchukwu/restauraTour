@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: 'home#index'
-  get  '/signup',  to: 'users#index'
+
 
 
   resources :users
@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   resources :events
   resources :about
     # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
 end

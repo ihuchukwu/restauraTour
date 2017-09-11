@@ -7,12 +7,14 @@
 <h2>Restaurants</h2>
 
 
-  <% @restaurants.each do |f| %>
+  <% @restaurants.each do |r| %>
 
     <div class="eachRest">
-      <p><%= f.name %></p>
-      <p><%= f.description %></p>
-      <p><%= f.location %></p>
+      <p><%= r.name %></p>
+      <p><%= r.description %></p>
+      <p><%= r.location %></p>
+
+      <%= link_to 'see more', new_restaurant_path(r) %>
     </div>
 
   <% end %>
