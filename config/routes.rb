@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: 'home#index'
-  get  '/signup',  to: 'users#new'
+  get  '/signup',  to: 'users#index'
 
 
   resources :users
