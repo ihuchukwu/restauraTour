@@ -8,7 +8,14 @@
         <li><%= link_to "Restaurant", '/restaurants#index' %></li>
         <li><%= link_to "Event",   '/event#index' %></li>
         <li><%= link_to "Contact Us",   '/contact#index' %></li>
-        <li class="logRight"><%= link_to "Log in", '/users#index' %></li>
+        <li >
+          <% if user_signed_in? %>
+            Logged in as <strong><%= current_user.email %></strong>.
+            <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+            <% else %>
+            <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+            <% end %>
+        </li>
       </ul>
     </nav>
   </div>
