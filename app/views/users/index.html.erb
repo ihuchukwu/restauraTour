@@ -2,4 +2,10 @@
 <p>Find me in app/views/users/index.html.erb</p> -->
 <p id="notice"><%= notice %></p>
 
-<%= link_to 'Sign up', 'show_path' %>
+
+<% @users.each do |u| %>
+      <p><%= u.first_name %></p>
+      <p><%= u.last_name %></p>
+      <p><%= u.location %></p>
+      <p><%= u.email %></p>
+<% end %>
