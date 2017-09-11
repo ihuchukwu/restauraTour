@@ -8,4 +8,6 @@
       <p><%= u.last_name %></p>
       <p><%= u.location %></p>
       <p><%= u.email %></p>
+        @user = User.find(3)
+        <%= link_to "User", users_path(@user) %>
 <% end %>
