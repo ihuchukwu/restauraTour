@@ -43,3 +43,7 @@ Menu_item.create(name:"ARUGULA SALATA ", description:"Arugula, almonds, cherry t
 kefalograviera cheese and sweet balsamic vinaigrette", restaurant_id:7)
 Menu_item.create(name:"JUMBO AFRICAN PRAWNS", description:"Grilled then dressed with a brandy infused ladolemeno", restaurant_id:7)
 Menu_item.create(name:"CHILEAN SEA BASS PLAKI", description:"Chilean sea bass slow baked in fish fume and tomato sauce with onions, tomatoes, green peppers, carrots, potatoes, capers, and thyme", restaurant_id:7)
+
+Menu_item.create(name:"Fried Cajun Calamari",description:"Fried cajun calamari served with manira sauce, flash fried with pappers",restaurant_id:8)
+Menu_item.create(name:"Stuffed Mushrooms",description:"Stuffed mushrooms filled with lump crabmeat and lobster cream sauce",restaurant_id:8)
+Menu_item.create(name:"Crab Balls",description:"Delicious fried deviled crab bites",restaurant_id:8)
