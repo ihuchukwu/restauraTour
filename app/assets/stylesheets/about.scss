@@ -1,4 +1,35 @@
-
+.body1{
+  background-image:
+   url("http://www.newhdwallpaper.in/wp-content/uploads/2014/09/Fruits-most-beautiful-wallpaper.jpg");
+   background-size: cover;
+}
+.par1{
+  font-size: 20px;
+  padding: 20px;
+  // color: blue;
+}
+.h1{
+  text-align: center;
+  font-size: 100px;
+  color: red;
+}
+.h2{
+  font-style:italic;
+}
+.classlist{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  // filter: alpha(opacity=60)
+  // border-radius:50%;
+  // background-color:	#F8F8FF;
+  float: right;
+  padding:20px;
+}
+.image1{
+  border-radius: 50%;
+}
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
