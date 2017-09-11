@@ -11,6 +11,7 @@
   </head>
 
   <body>
+<<<<<<< HEAD
         <header class="navbar">
           <div class="container">
             <%= link_to "sample app", '#', id: "logo" %>
@@ -34,5 +35,17 @@
 
           <%= yield %>
 
+=======
+    <div class="">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    </div>
+    <%= render 'layouts/header' %>
+    <div class="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+      <%= debug(params) if Rails.env.development? %>
+    </div>
+>>>>>>> b079fd3c4cb90c8f182a56ecb7e967bbc3afe134
   </body>
 </html>
