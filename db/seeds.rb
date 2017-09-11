@@ -23,4 +23,18 @@ Menu_item.create(name:"Fetucine", description:"Pasta with the traditional Bologn
 Menu_item.create(name:"Minestra", description:"Hearty vegetable soup with barlotti beans, escarole, quadrucci pasta ", restaurant_id:2)
 Menu_item.create(name:"Poletto", description:"Lemon rosemary roasted breast of chicken, fregola vegetable soffritto", restaurant_id:2)
 
-Menu_item.create(name:"",description:"",restaurant_id:3)
+Menu_item.create(name:"Chicken Corn Chowder",description:"Sweet corn, black beans, vegetables, and spicy green chile",restaurant_id:3)
+Menu_item.create(name:"Farmstand Green Salad",description:"English cucumber, tomatoes, baby carrots & buttermilk dressing",restaurant_id:3)
+Menu_item.create(name:"Cajun Deviled Eggs with Shrimp",description:"grilled shrimp, pickled red onion, chopped herbs",restaurant_id:3)
+
+Menu_item.create(name:"Swordfish", description:"Grilled Swordfish Topped with a Pineapple Mango Salsa",restaurant_id:4)
+Menu_item.create(name:"Flounder Francaise", description:"Lightly Battered & Sauteed in a Lemon Butter Wine Sauce",restaurant_id:4)
+Menu_item.create(name:"Steak Alma", description:"Twin Filets Sauteed with Sauvigon Wine in a Honey Butter Sauce",restaurant_id:4)
+
+Menu_items.create(name:"Crisp Orange Beef", description:"Sliced beef fillet, delicately sautéed in a tangy orange peel sauce", restaurant_id:5)
+Menu_items.create(name:"Mongolian Lamb ", description:"Sautéed with Chinese eggplant and scallions in a black bean sauce", restaurant_id:5)
+Menu_items.create(name:"Crabmeat and Shrimp Fried Rice", description:"With jumbo lump crab, shiitake mushrooms, snow peas, saffron and Thai basil", restaurant_id:5)
+
+Menu_item.create(name:"Paneer Pakora", description:"Homemade Indian cheese balls batter dipped and fried until golden",restaurant_id:6)
+Menu_item.create(name:"", description:"",restaurant_id:6)
+Menu_item.create(name:"", description:"",restaurant_id:6)
