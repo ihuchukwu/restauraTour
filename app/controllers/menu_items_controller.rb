@@ -3,6 +3,8 @@ class MenuItemsController < ApplicationController
   end
 
   def show
+    restaurant = Restaurant.find_by_id(params[:id])
+    @menu = restaurant.MenuItems
   end
 
   def new
