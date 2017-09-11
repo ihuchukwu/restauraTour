@@ -36,5 +36,10 @@ Menu_items.create(name:"Mongolian Lamb ", description:"Sautéed with Chinese egg
 Menu_items.create(name:"Crabmeat and Shrimp Fried Rice", description:"With jumbo lump crab, shiitake mushrooms, snow peas, saffron and Thai basil", restaurant_id:5)
 
 Menu_item.create(name:"Paneer Pakora", description:"Homemade Indian cheese balls batter dipped and fried until golden",restaurant_id:6)
-Menu_item.create(name:"", description:"",restaurant_id:6)
-Menu_item.create(name:"", description:"",restaurant_id:6)
+Menu_item.create(name:"Tawi Special", description:"Chicken and lamb grilled to perfection with onions, green peppers and garam masala",restaurant_id:6)
+Menu_item.create(name:"Harabhara Kabab", description:"Fresh spinach balls scrumptiously spiced and deep fried",restaurant_id:6)
+
+Menu_item.create(name:"ARUGULA SALATA ", description:"Arugula, almonds, cherry tomato, shaved
+kefalograviera cheese and sweet balsamic vinaigrette", restaurant_id:7)
+Menu_item.create(name:"JUMBO AFRICAN PRAWNS", description:"Grilled then dressed with a brandy infused ladolemeno", restaurant_id:7)
+Menu_item.create(name:"CHILEAN SEA BASS PLAKI", description:"Chilean sea bass slow baked in fish fume and tomato sauce with onions, tomatoes, green peppers, carrots, potatoes, capers, and thyme", restaurant_id:7)
