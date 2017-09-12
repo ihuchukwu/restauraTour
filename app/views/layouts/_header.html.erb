@@ -7,15 +7,7 @@
         <li><%= link_to "About Us", about_index_path %></li>
         <li><%= link_to "Restaurant",restaurants_path(@restaurants)%></li>
         <li><%= link_to "Event",   '/event#index' %></li>
-<<<<<<< HEAD
-        <li><%= link_to "Contact Us",   '/contact#index' %></li>
-<<<<<<< HEAD
-        <li class="logRight"><%= link_to "Log in", '/users#index' %></li>
-=======
-=======
-        
 
->>>>>>> e7163c3448b19bf47ad50c077360ad09f72cf45f
         <li >
           <% if user_signed_in? %>
             Logged in as <strong><%= current_user.email %></strong>.
@@ -24,7 +16,7 @@
             <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
             <% end %>
         </li>
->>>>>>> master
+
       </ul>
     </nav>
   </div>
