@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170908202435) do
+ActiveRecord::Schema.define(version: 20170912174528) do
 
   create_table "events", force: :cascade do |t|
     t.integer "restaurant_id"
@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(version: 20170908202435) do
     t.string "avatar_content_type"
     t.integer "avatar_file_size"
     t.datetime "avatar_updated_at"
+    t.string "image"
   end
 
   create_table "users", force: :cascade do |t|
