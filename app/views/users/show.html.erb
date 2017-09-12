@@ -1,46 +1,9 @@
-<!-- <h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p> -->
-
-<%= show_with(model: @user, local: true) do |form| %>
-  <% if @user.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
-
-      <ul>
-      <% @user.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= form.label :firstname %> <br>
-    <%= form.text_field :firstname, id: :user_firstname %>
-  </div>
-
-  <div class="field">
-    <%= form.label :lastname %> <br>
-    <%= form.text_field :lasttname, id: :user_lasttname %>
-  </div>
-
-  <div class="field">
-    <%= form.label :email %> <br>
-    <%= form.text_field :email, id: :user_email %>
-  </div>
-
-  <div class="field">
-    <%= form.label :password %> <br>
-    <%= form.text_field :password, id: :user_password %>
-  </div>
-
-  <div class="field">
-    <%= form.label :location %> <br>
-    <%= form.select :location, ['California', 'Florida', 'Louisiana', 'Maryland', 'North Carolina', 'New Jersey', 'New York', 'Pennsylvania', 'South Carolina', 'Texas', 'Washington'] %>
-  </div>
 
 
-  <div class="actions">
-    <%= form.submit 'Create User', :class => 'submit_button'%>
-  </div>
-<% end %>
+<h1>Users#show</h1>
+<p>Find me in app/views/users/show.html.erb</p>
+
+<p><%= @user.first_name %></p>
+<p><%= @user.last_name %></p>
+<p><%= @user.email %></p>
+<p><%= @user.location %></p>

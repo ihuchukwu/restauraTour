@@ -14,6 +14,7 @@ Restaurant.create(name:"CinCin",description:"CinCin, in historic Chestnut Hill, 
 Restaurant.create(name:"Palace of Asia",description:"Our menu is packed with classic dishes we create from scratch. Daily specials incorporate seasonal, local ingredients. From delicious appetizers to tasty salads, inspired entrees to decadent desserts, your meal will be one of a kind.",location:"285 Commerce Drive, Fort Washington PA")
 Restaurant.create(name:"ESTIA",description:"WHERE YOUR AUTHENTIC GREEK MEDITERRANEAN DINING EXPERIENCE COMES ALIVE",location:"405-1407 Locust Street, Philadelphia PA")
 Restaurant.create(name:"Benny The Bums",description:"Seafood Restaurant & Bar has been the ideal spot for the past 23 years.",location:"9991 Bustleton Avenue, Philadelphia PA")
+<<<<<<< HEAD
 
 MenuItem.create(name:"Lamb Chops", description:"Charboiled lamb chops with mint jelly",restaurant_id:1)
 MenuItem.create(name:"Broilled Salmon", description:"Broilled salmon with lemon butter", restaurant_id:1)
@@ -47,3 +48,8 @@ MenuItem.create(name:"CHILEAN SEA BASS PLAKI", description:"Chilean sea bass slo
 MenuItem.create(name:"Fried Cajun Calamari",description:"Fried cajun calamari served with manira sauce, flash fried with pappers",restaurant_id:8)
 MenuItem.create(name:"Stuffed Mushrooms",description:"Stuffed mushrooms filled with lump crabmeat and lobster cream sauce",restaurant_id:8)
 MenuItem.create(name:"Crab Balls",description:"Delicious fried deviled crab bites",restaurant_id:8)
+=======
+# Menu_item.create(name:"Lamb Chops", description:"Charboiled lamb chops with mint jelly",restaurant_id:1)
+# Menu_item.create(name:"Broilled Salmon", description:"Broilled salmon with lemon butter", restaurant_id:1)
+# Menu_item.create(name:"Roast Turkey", description:"Roast turkey with stuffing and gravy", restaurant_id:1)
+>>>>>>> master
