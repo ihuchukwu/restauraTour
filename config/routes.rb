@@ -3,13 +3,15 @@ Rails.application.routes.draw do
   root to: 'home#index'
   get  '/signup',  to: 'users#index'
 
+
   resources :users
-  resources :restaurants
-  resources :menu_items
   resources :events
   resources :about
 
+
   resources :restaurants do
   resources :menu_items
+
+
   end
 end
