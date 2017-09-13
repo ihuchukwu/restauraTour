@@ -5,13 +5,14 @@ Rails.application.routes.draw do
 
 
   resources :users
-  resources :events
   resources :about
-
 
   resources :restaurants do
   resources :menu_items
-
-
   end
+
+  resources :restaurants do
+  resources :events
+  end
+
 end

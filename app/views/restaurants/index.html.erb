@@ -15,7 +15,10 @@
       <p><%= r.description %></p>
       <p><%= r.location %></p>
 
-      <%= link_to 'see more', new_restaurant_path(r) %>
+      <%= link_to 'See menu', restaurant_menu_items_path(r) %>
+      <br>
+      <%= link_to 'See events', restaurant_events_path(r) %>
+
     </div>
 
   <% end %>
