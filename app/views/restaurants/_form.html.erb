@@ -1,16 +1,26 @@
 <%= form_for @restaurant, :html => {:multipart => true} do |f| %>
-  <%= f.error_message %>
-  <%= f.hidden_field :gallery_id %>
-  <p>
+
+  <div>
     <%= f.label :name %>
     <%= f.text_field :name %>
-  </p>
-  <p>
+  </div>
+
+  <div>
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+
+  <div>
+    <%= f.label :location %>
+    <%= f.text_field :location %>
+  </div>
+
+  <div>
     <%= f.file_field :image %>
-  </p>
-  <p>
+  </div>
+  <div>
     <%= f.label :remote_image_url %><br>
     <%= f.text_field :remote_image_url %>
-  </p>
+  </div>
   <p><%= f.submit %></p>
-<%= end %>
+<% end %>

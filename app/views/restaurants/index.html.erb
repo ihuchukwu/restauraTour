@@ -1,7 +1,7 @@
 <body class="restaurant">
 
-<h1>Restaurants#index</h1>
-<p>Find me in app/views/restaurants/index.html.erb</p>
+<!-- <h1>Restaurants#index</h1>
+<p>Find me in app/views/restaurants/index.html.erb</p> -->
 
 
 <h2>Restaurants</h2>
@@ -10,13 +10,13 @@
   <% @restaurants.each do |r| %>
 
     <div class="eachRest">
-      <p><img src="/dining_2.jpg" alt=""></p>
       <p><%= r.name %></p>
       <p><%= r.description %></p>
       <p><%= r.location %></p>
       <p><%= r.image %></p>
 
-      <%= link_to 'see more', new_restaurant_path(r) %>
+      <%= link_to 'Add restaurant', new_restaurant_path %>
+      <%= render @restaurants %>
     </div>
 
   <% end %>
