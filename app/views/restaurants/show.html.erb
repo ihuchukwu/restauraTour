@@ -7,5 +7,6 @@
 <p><%= @restaurant.id %></p>
 <p><%= @restaurant.location %></p>
 <%= image_tag(@restaurant.image.url, alt: 'Image') if @restaurant.image? %>
+<%= link_to(image_tag(@restaurant.image.thumb.url, alt: 'Image'), @restaurant.image.url, target: '_blank') if @restaurant.image? %>
 
-<p><%= link_to 'Edit', edit_restaurant_path(@post) %></p>
+<p><%= link_to 'Edit', edit_restaurant_path(@restaurant) %></p>

@@ -14,7 +14,7 @@ class RestaurantsController < ApplicationController
   end
 
   def create
-    @restaurant = Restaurant.new(post_params)
+    @restaurant = Restaurant.new(restaurant_params)
     if @restaurant.save
       redirect_to restaurants_path
     else
@@ -26,7 +26,7 @@ class RestaurantsController < ApplicationController
   end
 
   def update
-    if @restaurant.update_attributes(post_params)
+    if @restaurant.update_attributes(restaurant_params)
       redirect_to restaurant_path(@restaurant)
     else
       render :edit

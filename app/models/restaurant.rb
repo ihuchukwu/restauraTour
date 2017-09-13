@@ -12,4 +12,9 @@ class Restaurant < ApplicationRecord
         self.image_file_size    = image.file.size
       end
     end
+
+  validates :name, presence: true, length: {minimum: 1}
+  validates :description, presence: true
+  validates :position, presence: true, length: {minimum: 1}
+  validates :image, file_size: { less_than: 1.megabytes }
 end
