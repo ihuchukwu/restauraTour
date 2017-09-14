@@ -1,0 +1,4 @@
+<h2><%= link_to restaurant.name, restaurants_path %></h2>
+<p><%= truncate(restaurant.description, length: 150) %></p>
+<p><%= link_to 'Add restaurant', edit_restaurant_path(restaurant) %></p>
+<hr>
