@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users, :controllers => { registrations: 'registrations' }
   root to: 'home#index'
-  root to: 'restaurants#index'
+
   get  '/signup',  to: 'users#index'
 
   resources :users
@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   resources :about
 
   resources :restaurants do
-  resources :menu_items
+    resources :menu_items
   end
+
+  delete 'restaurants/:user_id' => 'restaurants#destroy'
 end

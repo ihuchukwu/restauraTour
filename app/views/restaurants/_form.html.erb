@@ -1,21 +1,33 @@
-<%= form_for restaurant do |f| %>
 
-  <div>
+<%= form_with(model: @restaurant, local: true) do |f| %>
+  <% if @restaurant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(job.errors.count, "error") %> prohibited this job from being saved:</h2>
+
+      <ul>
+      <% @restaurant.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
     <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
 
-  <div>
+  <div class="field">
     <%= f.label :description %>
     <%= f.text_area :description %>
   </div>
 
-  <div>
+  <div class="field">
     <%= f.label :location %>
-    <%= f.text_field :location %>
+    <%= f.select :location, ['California', 'Florida', 'Louisiana', 'Maryland', 'North Carolina', 'New Jersey', 'New York', 'Pennsylvania', 'South Carolina', 'Texas', 'Washington'] %>
   </div>
 
-  <div>
+  <div class="field">
     <%= f.label :image %><br>
     <%= f.file_field :image %>
   </div>

@@ -22,7 +22,6 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'rmagick'
 gem 'mini_magick'
-gem 'file_validators'
 gem 'carrierwave'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

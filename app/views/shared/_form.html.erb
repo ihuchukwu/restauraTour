@@ -1,0 +1,9 @@
+<% if restaurant.image? %>
+    <%= image_tag restaurant.image.thumb.url %>
+    <div>
+      <%= label_tag :remove_image do %>
+        Remove image
+        <%= f.check_box :remove_image %>
+      <% end %>
+    </div>
+<% end %>

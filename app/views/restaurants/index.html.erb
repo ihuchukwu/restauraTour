@@ -13,10 +13,12 @@
       <p><%= r.name %></p>
       <p><%= r.description %></p>
       <p><%= r.location %></p>
-      <p><%= r.image %></p>
+      <p><%= image_tag r.image %></p>
+
+      <%= link_to "Delete", r, method: :delete, data: { confirm: 'Are you sure?'} %>
+
 
       <%= link_to 'Add restaurants', new_restaurant_path %>
-      <%= render @restaurants %>
     </div>
 
   <% end %>
