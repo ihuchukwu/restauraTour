@@ -1,10 +1,11 @@
 class MenuItemsController < ApplicationController
   def index
-    @menu = MenuItem.all
+      @menu = Restaurant.find(params[:restaurant_id]).menu_items
   end
 
   def show
-    @menu = MenuItem.find_by_id(params[:id])
+      items = Restaurant.find(params[:restaurant_id]).menu_items
+      @menu = items.find_by_id(params[:id])
   end
 
   def new

@@ -4,15 +4,20 @@ Rails.application.routes.draw do
 
   get  '/signup',  to: 'users#index'
 
+
   resources :users
-  resources :restaurants
-  resources :menu_items
-  resources :events
   resources :about
 
   resources :restaurants do
     resources :menu_items
   end
 
+
   delete 'restaurants/:user_id' => 'restaurants#destroy'
+
+  resources :restaurants do
+  resources :events
+  end
+
+  
 end
