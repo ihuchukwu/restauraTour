@@ -1,0 +1,16 @@
+<h1>Participations#new</h1>
+<p>Find me in app/views/participations/new.html.erb</p>
+
+<%= form_for @participation, url: {action: "create"} do |f| %>
+  <%= f.label :status %><br />
+  <%= f.text_field :status %>
+
+  <%= f.fields_for :user, current_user do |builder| %>
+    <fieldset>
+      <%= builder.label :first_name, "First Name" %><br />
+      <%= builder.text_field :first_name %><br />
+    </fieldset>
+  <% end %>
+
+  <%= f.submit "Register" %>
+<% end %>

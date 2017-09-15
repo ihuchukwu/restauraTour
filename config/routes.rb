@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   devise_for :users, :controllers => { registrations: 'registrations' }
   root to: 'home#index'
 
@@ -6,7 +7,9 @@ Rails.application.routes.draw do
 
 
   resources :users
+
   resources :about
+
 
   resources :restaurants do
     resources :menu_items
@@ -16,8 +19,10 @@ Rails.application.routes.draw do
   delete 'restaurants/:user_id' => 'restaurants#destroy'
 
   resources :restaurants do
-  resources :events
+    resources :events do
+      resources :participations
+    end
   end
 
-  
+
 end

@@ -3,9 +3,14 @@
 
 
 <% @menu.each do |m| %>
-      <p><%= m.name %></p>
+
+<div class="menu_item_div1">
+
+
+      <p class = "name"><%= m.name %></p>
       <p><%= m.description %></p>
       <p><%= m.id %></p>
       <p><%= m.restaurant_id %></p>
+</div>
 
 <% end %>

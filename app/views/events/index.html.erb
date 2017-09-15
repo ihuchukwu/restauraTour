@@ -1,9 +1,10 @@
 <h1>Events</h1>
 <p>Find me in app/views/events/index.html.erb</p>
 
+<%= link_to 'Want to attend??', '/restaurants/params[:restaurant_id]/events/1/attend' %>
 
 <% @events.each do |e| %>
       <p><%= e.name %></p>
       <p><%= e.restaurant_id %></p>
-
+      <%= link_to 'Want to attend??', '/restaurants/1/events/1/attend' %>
 <% end %>

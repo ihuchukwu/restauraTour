@@ -16,12 +16,14 @@
       <p><%= image_tag r.image %></p>
 
 
-      <p class="btn_rest"><%= link_to "Delete", r, method: :delete, data: { confirm: 'Are you sure?'} %></p>
+
+      <%= link_to "Delete", r, method: :delete, data: { confirm: 'Are you sure?'} %>
 
 
-      <p class="btn_rest"><%= link_to 'Add restaurants', new_restaurant_path %></p>
+      <%= link_to 'Add restaurants', new_restaurant_path %>
 
-      <p class="btn_rest"><%= link_to 'See menu', restaurant_menu_items_path(r) %></p>
+
+      <%= link_to 'See menu', restaurant_menu_items_path(r) %>
       <br>
       <p class="btn_rest"><%= link_to 'See events', restaurant_events_path(r) %></p>
 
