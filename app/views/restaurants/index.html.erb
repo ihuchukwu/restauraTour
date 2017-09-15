@@ -4,13 +4,13 @@
 <p>Find me in app/views/restaurants/index.html.erb</p> -->
 
 
-<h2>Restaurants</h2>
+<h1>Restaurants</h1>
 
 
   <% @restaurants.each do |r| %>
 
     <div class="eachRest">
-      <p><%= r.name %></p>
+      <h2><strong><%= r.name %></strong></h2>
       <p><%= r.description %></p>
       <p><%= r.location %></p>
       <p><%= image_tag r.image %></p>
@@ -24,7 +24,7 @@
 
       <%= link_to 'See menu', restaurant_menu_items_path(r) %>
       <br>
-      <%= link_to 'See events', restaurant_events_path(r) %>
+      <p class="btn_rest"><%= link_to 'See events', restaurant_events_path(r) %></p>
 
 
     </div>
