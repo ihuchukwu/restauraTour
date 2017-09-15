@@ -19,8 +19,7 @@
 
       <%= link_to "Delete", r, method: :delete, data: { confirm: 'Are you sure?'} %>
 
-
-      <%= link_to 'Add restaurants', new_restaurant_path %>
+      <%= link_to 'Edit', edit_restaurant_path(r) %>
 
 
       <%= link_to 'See menu', restaurant_menu_items_path(r) %>
