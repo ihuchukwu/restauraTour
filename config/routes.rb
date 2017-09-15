@@ -7,7 +7,9 @@ Rails.application.routes.draw do
 
 
   resources :users
+
   resources :about
+
 
   resources :restaurants do
     resources :menu_items
@@ -22,5 +24,5 @@ Rails.application.routes.draw do
     end
   end
 
-  
+
 end
