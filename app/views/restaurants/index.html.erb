@@ -16,11 +16,13 @@
       <p><%= image_tag r.image %></p>
 
 
+
       <%= link_to "Delete", r, method: :delete, data: { confirm: 'Are you sure?'} %>
 
 
       <%= link_to 'Add restaurants', new_restaurant_path %>
-      
+
+
       <%= link_to 'See menu', restaurant_menu_items_path(r) %>
       <br>
       <%= link_to 'See events', restaurant_events_path(r) %>

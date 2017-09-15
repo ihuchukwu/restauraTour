@@ -89,6 +89,7 @@ MenuItem.create(name:"CHILEAN SEA BASS PLAKI", description:"Chilean sea bass slo
 # MenuItem.create(name:"Crab Balls",description:"Delicious fried deviled crab bites",restaurant_id:8)
 
 
+
 Event.create(name:"Tiffany Diner welcomes restauraTour 2017", restaurant_id:1)
 Event.create(name:"Moonstruck Restaurant welcomes restauraTour 2017", restaurant_id:2)
 Event.create(name:"Relish welcomes restauraTour 2017", restaurant_id:3)
