@@ -30,8 +30,8 @@ This project is licensed under the NYCDA License - see the details
 
 # Acknowledgments
 
-Class teacher - BJ Cantlupe and TA's Jack Linton & O. Danailov
-Hat tip to anyone who's code was used
+* Class teacher - BJ Cantlupe and TA's Jack Linton & O. Danailov
+* Hat tip to anyone who's code was used
 Inspiration
 etc
    
