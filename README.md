@@ -37,4 +37,4 @@ etc
    
 # Deployment
 The restauraTour is deployed in hosting server heroku on
-
+* https://serene-chamber-42362.herokuapp.com
