@@ -2,7 +2,7 @@
 
 A restaurant management app. To locally arrange for meet ups for recreational purposes...
 
-# Goal:
+# Goal
 
 To demonstrate knowledge of working on a fully featured Ruby on Rails project in a group environment.
 like a group hired by an entrepreneur to build an MVP (Minimum Viable Product) for him or her to present to potential investors.
@@ -20,9 +20,9 @@ You need to install the the foolowing software on your machine
 
 # Group Members
 
-K Dembiles - Group Project Master
-C Onumaeme - Group Scrum Master/ Collaborator
-B Busilana - Exceptional Collaborator
+* K Dembiles - Group Project Master
+* C Onumaeme - Group Scrum Master/ Collaborator
+* B Busilana - Exceptional Collaborator
 
 # License
 
