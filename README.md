@@ -38,6 +38,6 @@ etc
 The restauraTour is deployed in hosting server heroku on
 * https://serene-chamber-42362.herokuapp.com
 # pseudo sign-in iformation:
-Email: me@me.com
-Password: q123456
+* Email: me@me.com
+* Password: q123456
 
