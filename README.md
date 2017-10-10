@@ -4,8 +4,7 @@ A restaurant management app. To locally arrange for meet ups for recreational pu
 
 # Goal
 
-To demonstrate knowledge of working on a fully featured Ruby on Rails project in a group environment.
-like a group hired by an entrepreneur to build an MVP (Minimum Viable Product) for him or her to present to potential investors.
+To demonstrate knowledge of working on a fully featured Ruby on Rails project in a group environment like a group hired by an entrepreneur to build an MVP (Minimum Viable Product) for him or her to present to potential investors.
 
 # Getting Started
 With a procedural rule of thumb, the restauraTour process flow was practically arranged to be interactive. These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
